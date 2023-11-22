@@ -23,3 +23,5 @@ runs:
       shell: bash
     - run: echo "hello" >> hello.txt
       shell: bash
+    - run: export HELLO=hello
+      shell: bash
